@@ -6,7 +6,7 @@ extrato = ""
 qnt_diaria_saque = 0
 while True:
     op = input('Qual operação deseja fazer?\n'
-    '[Depositar/Sacar/Extrato/Sair] ')
+    '[Depositar[D]/Sacar[S]/Extrato[E]/Sair[Q]] ')
 
     if op == 'D':
         valor = float(input('Valor a depositar: '))
